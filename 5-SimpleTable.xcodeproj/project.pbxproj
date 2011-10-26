@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3774D2311455C3B000A91E0B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3774D22F1455C3B000A91E0B /* DetailViewController.m */; };
+		3774D2321455C3B000A91E0B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3774D2301455C3B000A91E0B /* DetailViewController.xib */; };
+		3774D2381455D97400A91E0B /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3774D2371455D97400A91E0B /* DataFetcher.m */; };
+		3774D23A1455DCD700A91E0B /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3774D2391455DCD700A91E0B /* SampleData.plist */; };
 		37F704ED14552A1700A36F83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F704EC14552A1700A36F83 /* UIKit.framework */; };
 		37F704EF14552A1700A36F83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F704EE14552A1700A36F83 /* Foundation.framework */; };
 		37F704F114552A1700A36F83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F704F014552A1700A36F83 /* CoreGraphics.framework */; };
 		37F704F714552A1700A36F83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37F704F514552A1700A36F83 /* InfoPlist.strings */; };
 		37F704F914552A1700A36F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F704F814552A1700A36F83 /* main.m */; };
 		37F704FD14552A1700A36F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F704FC14552A1700A36F83 /* AppDelegate.m */; };
+		37F7050514552A6800A36F83 /* MyTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F7050414552A6800A36F83 /* MyTableViewController_iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3774D22E1455C3B000A91E0B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3774D22F1455C3B000A91E0B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3774D2301455C3B000A91E0B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3774D2361455D97400A91E0B /* DataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetcher.h; sourceTree = "<group>"; };
+		3774D2371455D97400A91E0B /* DataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetcher.m; sourceTree = "<group>"; };
+		3774D2391455DCD700A91E0B /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
 		37F704E814552A1700A36F83 /* 5-SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-SimpleTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F704EC14552A1700A36F83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37F704EE14552A1700A36F83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37F704F014552A1700A36F83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37F704F414552A1700A36F83 /* 5-SimpleTable-Info.plist */ = {isa = PBXFileReference; path = "5-SimpleTable-Info.plist"; sourceTree = "<group>"; };
+		37F704F414552A1700A36F83 /* 5-SimpleTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "5-SimpleTable-Info.plist"; sourceTree = "<group>"; };
 		37F704F614552A1700A36F83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37F704F814552A1700A36F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37F704FA14552A1700A36F83 /* 5-SimpleTable-Prefix.pch */ = {isa = PBXFileReference; path = "5-SimpleTable-Prefix.pch"; sourceTree = "<group>"; };
-		37F704FB14552A1700A36F83 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37F704FA14552A1700A36F83 /* 5-SimpleTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5-SimpleTable-Prefix.pch"; sourceTree = "<group>"; };
+		37F704FB14552A1700A36F83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37F704FC14552A1700A36F83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F7050314552A6800A36F83 /* MyTableViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController_iPhone.h; sourceTree = "<group>"; };
+		37F7050414552A6800A36F83 /* MyTableViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController_iPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,14 @@
 			children = (
 				37F704FB14552A1700A36F83 /* AppDelegate.h */,
 				37F704FC14552A1700A36F83 /* AppDelegate.m */,
+				37F7050314552A6800A36F83 /* MyTableViewController_iPhone.h */,
+				37F7050414552A6800A36F83 /* MyTableViewController_iPhone.m */,
+				3774D22E1455C3B000A91E0B /* DetailViewController.h */,
+				3774D22F1455C3B000A91E0B /* DetailViewController.m */,
+				3774D2361455D97400A91E0B /* DataFetcher.h */,
+				3774D2371455D97400A91E0B /* DataFetcher.m */,
+				3774D2391455DCD700A91E0B /* SampleData.plist */,
+				3774D2301455C3B000A91E0B /* DetailViewController.xib */,
 				37F704F314552A1700A36F83 /* Supporting Files */,
 			);
 			path = "5-SimpleTable";
@@ -141,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37F704F714552A1700A36F83 /* InfoPlist.strings in Resources */,
+				3774D2321455C3B000A91E0B /* DetailViewController.xib in Resources */,
+				3774D23A1455DCD700A91E0B /* SampleData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +176,9 @@
 			files = (
 				37F704F914552A1700A36F83 /* main.m in Sources */,
 				37F704FD14552A1700A36F83 /* AppDelegate.m in Sources */,
+				37F7050514552A6800A36F83 /* MyTableViewController_iPhone.m in Sources */,
+				3774D2311455C3B000A91E0B /* DetailViewController.m in Sources */,
+				3774D2381455D97400A91E0B /* DataFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +282,7 @@
 				37F7050214552A1700A36F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

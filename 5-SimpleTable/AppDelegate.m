@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MyTableViewController_iPhone.h"
+#import "DataFetcher.h"
 
 @implementation AppDelegate
 
@@ -21,9 +23,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+    MyTableViewController_iPhone *tvc = [[[MyTableViewController_iPhone alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    UINavigationController *nc = [[[UINavigationController alloc] initWithRootViewController:tvc] autorelease];
+    
+    self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
+    
+    DataFetcher *df = [[DataFetcher alloc] init];
+    [df fetchData];
+    [df release];
+    
     return YES;
 }
 
